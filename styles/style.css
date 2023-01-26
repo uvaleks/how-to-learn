@@ -169,6 +169,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0;
 }
 
 .table__cell {
@@ -201,6 +202,7 @@
   position: relative;
   min-height: 890px;
   padding-top: 100px;
+  background-color: var(--bg-light);
   background-image: url(../images/feynman.png);
   background-size: 867px 637px;
   background-position: bottom left;
@@ -257,6 +259,10 @@
   background-size: 877px 877px;
   background-repeat: no-repeat;
   background-position: top right -210px;
+}
+
+.kaufman__section-title {
+  margin-bottom: 20px;
 }
 
 .section-title_theme_dark {
