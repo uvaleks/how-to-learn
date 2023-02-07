@@ -1,0 +1,6 @@
+.kaufman {
+    position: relative;
+    padding: 90px 0;
+    background-color: var(--bg-dark);
+    overflow: hidden;
+  }
