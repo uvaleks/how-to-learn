@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
   <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body class="page">
     <header class="header">
@@ -27,8 +27,8 @@
         </article>
       </section>
       <section class="techniques">
-        <h2 class="section-title techniques__section-title">Техники обучения</h2>
-        <p class="section-subtitle techniques__section-subtitle">Пять практик от Барбары Оакли</p>
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards">
           <li class="cards__item">
             <img class="cards__image" src="./images/cards-attention.png" alt="Два вида внимания">
@@ -57,6 +57,14 @@
           </li>
         </ul>
       </section>
+      <section class="video">
+        <h2 class="section-title">Видео нa TED</h2>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+        <div class="video__iframes video__iframe_place_video">
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="Tim Urban: Inside the mind of a master procrastinator" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="The first 20 hours -- how to learn anything | Josh Kaufman" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </section>
       <section class="oakley" aria-label="Две колонки">
         <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
@@ -72,7 +80,7 @@
         <a class="feynman__link" href="#" target="_blank">Подробнее &rarr;</a>
       </section>
       <section class="digits">
-        <h2 class="section-title digits__section-title">Цифры и факты</h2>
+        <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
           <li class="table__cell">
@@ -109,9 +117,22 @@
           </li>
         </ul>
       </section>
+      <section class="khan">
+          <div class="khan__container">
+            <p class="khan__author">Салман Хан</p>
+            <h2 class="khan__title">Весь мир — школа</h2>
+            <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+            <p class="khan__quote-author">Джордж Лукас</p>
+            <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+            <div class="khan__book-container">
+              <div class="khan__book-pic" title="Салман Хан | Весь мир — школа"></div>
+              <a class="khan__book-link" href="#" target="_blank">Купить книгу &rarr;</a>
+            </div>
+          </div>
+      </section>
       <section class="kaufman">
-        <div class="kaufman__triangle"></div>
-        <h2 class="section-title kaufman__section-title section-title_theme_dark">Принципы обучения</h2>
+        <div class="kaufman__triangle rotation"></div>
+        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
@@ -155,6 +176,16 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
+      </section>
+      <section class="resources">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+        <nav class="resources__logo-zone">
+          <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a>
+          <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Н плюс один"></a>
+          <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Полка"></a>
+          <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Стрелка"></a>
+        </nav>
       </section>
     </main>
     <footer class="footer">

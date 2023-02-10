@@ -1,0 +1,9 @@
+.khan__book-link {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    color: var(--links-and-shapes);
+    text-decoration: none;
+    height: min-content;
+}
