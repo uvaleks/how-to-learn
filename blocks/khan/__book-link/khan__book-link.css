@@ -7,3 +7,8 @@
     text-decoration: none;
     height: min-content;
 }
+
+.khan__book-link:hover {
+    opacity: .6;
+    transition: opacity 0.15s ease;
+}

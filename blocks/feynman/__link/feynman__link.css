@@ -10,3 +10,8 @@
     color: var(--links-and-shapes);
     text-decoration: none;
   }
+
+  .feynman__link:hover {
+    opacity: .6;
+    transition: opacity 0.15s ease;
+  }

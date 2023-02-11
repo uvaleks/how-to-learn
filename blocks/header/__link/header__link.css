@@ -2,3 +2,8 @@
     color: var(--links-and-shapes);
     text-decoration: none;
   }
+
+.header__link:hover {
+    opacity: .6;
+    transition: opacity 0.15s ease;
+}

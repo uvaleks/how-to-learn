@@ -7,4 +7,9 @@
     font-weight: normal;
     text-decoration: none;
     list-style: none;
-  }
+}
+
+.footer__column-link:hover {
+    opacity: .6;
+    transition: opacity 0.15s ease;
+}
