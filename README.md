@@ -1,16 +1,24 @@
-# Научиться учиться
+<h3 align="center">💻 How To Learn Page Layout</h3>
+<h1></h1>
+<div align="center">
 
-Учебный проект Яндекс Практикума, выполняемый в течении первого месяца обучения (на 1 и 2 спринте)
+🔗 [GitHub Pages](https://uvaleks.github.io/how-to-learn/)
+  
+</div>
+<h1></h1>
+<h3 align="center">🛠 Languages & Tools</h3>
 
-## Используемые технологии:
-* HTML
-* CSS
-* Git
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=css,html,ps,vscode,git" />
+  </a>
+<br><br>
 
-## Используемые инстументы:
-* Visual Studio Code
-* GitHub
+Image Resize [ILoveImg](https://www.iloveimg.com/resize-image/resize-png)
 
-## Планы по доработке
-* ~~Разместить проект на GitHub Pages, чтобы иметь возможность делиться ссылкой на него~~ - выполнено
-* Прикрутить адаптивность после проходения второго модуля, чтобы не стыдно было открывать проект с телефона
+PNG Optimization [TinyPNG](tinypng.com)
+  
+</div>
+<h1></h1>
+<h3 align="center">🔖 Next steps</h3>
+<p>📌 Add adaptive layout for mobile devices</p>
